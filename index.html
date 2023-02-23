@@ -18,15 +18,17 @@
         .titlepicture{
             width : auto;
             height: 200px;
-            border-bottom: 1px dashed;
+            border-bottom: 1px dashed rgba(0, 0, 0, 0.3);
+            margin: 1 auto;
+            background-image: url(./Image/title.jpg);
+            background-position: center center;
         }
         .titlepicture h1{
             text-align: center;
-            line-height: 200px;
-
+            height: 200px;
         }
         body{
-            background-color: #ffffff;
+            background-color: #fde3e4;
             min-height: 70px;
             max-height: 300px;
             width: 100%;
@@ -63,15 +65,16 @@
         .ul1{
             text-align: center;
             font-size: 24px;
-            
+            border: 1px solid rgba(0, 0, 0, 0.3);
+            background-color: rgba(253, 227, 228,0.3)
 
         }
         .ul1 ul{
             text-align: left;
             font-size: 20px;
-            background-color: #ffffff;
+            background-color: rgba(253, 227, 228,0.3);
             padding-left: 16px;
-            border-bottom: 1px dashed black;
+            border-bottom: 1px dashed rgba(0, 0, 0, 0.3);
             color: black;
 
         }
@@ -98,9 +101,7 @@
 </head>
 <body>
     <!-- 抬头图片 -->
-    <div class="titlepicture" style="background-color: aqua; ">
-        <h1>阿忆配音工作室|最专业配音</h1>
-        
+    <div class="titlepicture">
     </div>
     <!-- 主体部分 -->
     <div style="margin: 0px auto; width: 1200px;">
@@ -113,7 +114,7 @@
     
         <!-- 列表部分 -->
         <div class="box" style=" width: 600px;">
-            <ul class="ul1" style="background-color: rgba(0, 0, 0, 0.3);">试听列表
+            <ul class="ul1">试听列表
                 <div>
                     <ul>短视频
                         <li >男
